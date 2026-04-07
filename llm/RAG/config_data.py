@@ -1,3 +1,23 @@
+md5_path = "./md5.txt"
 
+collection_name = "rag"
+persist_directory = "./chroma_db"
 
-md5_path="./md5.text"
+chunk_size = 800
+chunk_overlap = 80
+
+separators = [
+    "\n\n",
+    "\n",
+    "。",
+    "！",
+    "？",
+    ".",
+    "!",
+    "?",
+    "，",
+    ",",
+    " ",
+    ""
+]
+max_split_char_number=1000
